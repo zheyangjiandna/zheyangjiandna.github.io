@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,a,ul,li,ol,p,em,i,table,th,tr,td,img,div,span{margin: 0px;padding: 0px;}
+body{font-size: 12px;font-family: "微软雅黑"; color: aliceblue;}
+li{list-style: none;}
+em,i{font-style: normal;}
+a{text-decoration: none;}
+.by{background-color: #92c0d6;}
+.arm{background-color: #f5aaab;}
+.rj{background-color: #d7b271;}
+.tx{background-color: #26a495;}
+.rgzn{background-color: #2cb5f5;}
+.xz{background-color: #73b4ef;}
+.main{
+ background-color:#c4e2fe;
+ width: 540px;
+ height: 1040px;
+ margin: 0px auto;
+}
+.top{
+ background: #73b4ef;
+ padding-top: 50px;
+ width: 540px;
+ height: 49px;
+ text-align: center;
+}
+.top em{
+ line-height: 25px;
+ font-size: 25px;
+}
+.number{
+ float:left;
+ width: 25px;
+ height:941px;
+}
+.number table{
+ border:0px solid #73b4ef;
+ color:#666666;
+}
+.number table th{
+ font-size: 15px;
+ text-align: center;
+ width: 24px;
+ height: 50px;
+ border-right: 2px solid #73b4ef;
+ border-bottom: 2px solid #73b4ef;
+}
+.number table tr td{
+ text-align: center;
+ font-size: 15px;
+ width: 24px;
+ height: 74px;
+ border-right: 2px solid #73b4ef;
+}
+.class_date{
+ float:left;
+ width: 515px;
+ height:941px;
+}
+.week{
+ width: 515px;
+ height: 50px;
+ border-bottom: 2px solid #73b4ef;
+}
+.week table{
+ color:#666666;
+ font-size: 15px;
+}
+.week table tr td{
+ width: 103px;
+ height: 25px;
+ text-align: center;
+}
+.class_morning{
+ width: 515px;
+ height: 291px;
+ border-bottom: 2px solid #73b4ef;
+}
+.class_morning ul li{
+ border-radius: 7px;
+ float: left;
+ padding:50px 5px; 
+ width: 91px;
+ height: 43px;
+ margin: 1px 1px;
+ line-height: 20px;
+}
+.class_morning ul li em{
+ font-size: 13px;
+}
+.class_afternoon{
+ width: 515px;
+ height: 291px;
+ border-bottom: 2px solid #73b4ef;
+}
+.class_afternoon ul li{
+ border-radius: 7px;
+ float: left;
+ padding:50px 5px; 
+ width: 91px;
+ height: 43px;
+ margin: 1px 1px;
+ line-height: 20px;
+}
+.class_afternoon ul li em{
+ font-size: 13px;
+}
+.class_night{
+ position: relative;
+ width: 515px;
+ height: 300px;
+}
+.class_night ul li{
+ border-radius: 7px;
+ float: left;
+ padding:50px 5px; 
+ width: 91px;
+ height: 43px;
+ margin: 1px 1px;
+ line-height: 20px;
+}
+.class_night ul li em{
+ font-size: 13px;
+}
+.class_night img{
+ position: absolute;
+ width: 58px;
+ height: 58px;
+ bottom: 1px;
+ right: 25px;
+}
